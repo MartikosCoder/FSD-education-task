@@ -1,1 +1,1 @@
-# FSD-education-task
+# FSD education task
