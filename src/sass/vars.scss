@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+$ds_100: rgb(31, 32, 65);
+$ds_75: rgba(31, 32, 65, .75);
+$ds_50: rgba(31, 32, 65, .5);
+$ds_25: rgba(31, 32, 65, .25);
+$ds_5: rgba(31, 32, 65, .05);
+$purple: #BC9CFF;
+$green: #6FCF97;
+
+h1, h2, h3 {
+  color: $ds_100;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  line-height: 171%;
+  font-family: 'Montserrat', sans-serif;
+  color: $ds_75;
+}
