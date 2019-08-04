@@ -31,25 +31,25 @@ $ds_5: rgba(31, 32, 65, .05);
 $purple: #BC9CFF;
 $green: #6FCF97;
 
-h1, h2, h3 {
+.h1, .h2, .h3 {
   color: $ds_100;
 }
 
-h1 {
+.h1 {
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
   font-family: 'Quicksand', sans-serif;
 }
 
-h2 {
+.h2 {
   font-size: 19px;
   line-height: 24px;
   font-weight: bold;
   font-family: 'Quicksand', sans-serif;
 }
 
-h3 {
+.h3 {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
+.body {
   font-size: 14px;
   line-height: 171%;
   font-family: 'Montserrat', sans-serif;

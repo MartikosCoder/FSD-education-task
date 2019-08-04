@@ -1,0 +1,56 @@
+@import 'vars';
+
+.input-box {
+  border: 1px solid $ds_25;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 13px 15px;
+  background: transparent;
+}
+
+// Standard text field
+.form-text {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+
+  .input-text {
+    margin-top: 5px;
+    color: $ds_25;
+
+    &:hover, &:focus {
+      border-color: $ds_50;
+      color: $ds_75;
+    }
+  }
+}
+
+.form-select {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+
+  .input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 5px;
+    color: $ds_75;
+  }
+
+  &:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid $ds_50;
+    border-left: 2px solid $ds_50;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    right: 15px;
+    top: 53%;
+    text-align: center;
+    pointer-events: none;
+  }
+}
